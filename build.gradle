@@ -17,6 +17,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.security:spring-security-test'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.security.oauth:spring-security-oauth2:2.5.0.RELEASE'
+	implementation 'org.webjars:webjars-locator:0.40'
+	implementation 'org.webjars:bootstrap:4.5.3'
+	implementation 'org.webjars:jquery:3.5.1'
 }
 
 test {
